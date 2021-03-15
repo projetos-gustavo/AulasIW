@@ -1,0 +1,50 @@
+ body{
+            background-image:url('../img/fundo.jpg'); 
+            background-repeat: repeat-y;
+            font-size: 14px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        div{
+            font-size: 2em;
+        }
+
+        h1,h2{
+            color: #fff;
+            text-align: center;
+            font-style: italic;
+        }
+
+        p{
+            border: 2px solid #fff;
+            color: #fff;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        figure{
+        	text-align: center;
+        }
+
+        img{
+        	width: 70%;
+        } 
+
+        a:link {
+            color: lightblue;
+        }
+
+        a:visited {
+            color: lightblue;
+        }
+
+        a:hover {
+            color: lightblue;
+        }
+
+        a:active {
+            color: lightblue;
+        }
+         
