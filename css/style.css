@@ -1,6 +1,5 @@
  body{
             background-image:url('../img/fundo.jpg'); 
-            background-repeat: repeat-y;
             font-size: 14px;
             width: 80%;
             margin-left: auto;
@@ -8,20 +7,40 @@
         }
 
         div{
-            font-size: 2em;
+            font-size: 14px;
+            width: 70%
+            margin-left: auto;
+            margin-right: auto;
         }
 
         h1,h2{
             color: #fff;
             text-align: center;
-            font-style: italic;
+            font-family:sans-serif;
+        }
+
+        h3{
+            color: #fff;
+            font-style: inherit;   
+            font-size: 3em;
         }
 
         p{
-            border: 2px solid #fff;
             color: #fff;
-            font-size: 2em;
+            font-size: 15px;
             font-weight: bold;
+            font-family:sans-serif;
+        }
+
+        td, th{
+            border: 5px groove #000000;
+            text-align: center;
+            padding: 5px;
+            background-color: #fff
+        }
+
+        tr:nth-child(even) {
+            background-color: #fff;
         }
 
         figure{
@@ -33,18 +52,28 @@
         } 
 
         a:link {
-            color: lightblue;
+            color: red;
         }
 
         a:visited {
-            color: lightblue;
+            color: red;
         }
 
         a:hover {
-            color: lightblue;
+            color: red;
         }
 
         a:active {
-            color: lightblue;
+            color: red;
         }
-         
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        ul li, ol li {
+           text-decoration: underline;
+           color: #fff;
+           font-weight: bolder;
+        } 
