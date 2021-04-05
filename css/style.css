@@ -5,6 +5,26 @@
             margin-left: auto;
             margin-right: auto;
         }
+        header{
+            width: 100%;      
+            padding: 13px;
+        }
+
+        footer{
+            background-color: rgba(165,42,42,0.3);   
+            padding: 13px;
+        }
+        .container{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+ 
+        .centro{
+            color: #fff;
+            text-align: center;
+            font-family:sans-serif;
+        }
 
         div{
             font-size: 14px;
@@ -13,12 +33,23 @@
             margin-right: auto;
         }
 
-        h1,h2{
+        h1{
+            width: 100%;
             color: #fff;
             text-align: center;
             font-family:sans-serif;
+            background-color: rgba(165,42,42,0.3);
+            padding: 13px;
         }
+       
+        h2{
+            width: 100%;
+            color: #fff;
+            text-decoration: underline;
+            font-family:sans-serif;
+            padding: 13px;
 
+        }       
         h3{
             color: #fff;
             font-style: inherit;   
@@ -30,6 +61,9 @@
             font-size: 15px;
             font-weight: bold;
             font-family:sans-serif;
+            text-align: justify;
+            margin-top: 2%;
+            margin-bottom: 2%;
         }
 
         td, th{
