@@ -1,10 +1,8 @@
  body{
             background-image:url('../img/fundo.jpg'); 
-            font-size: 14px;
-            width: 80%;
-            margin-left: auto;
-            margin-right: auto;
+            font-size: 1.8em;    
         }
+
         header{
             width: 100%;      
             padding: 13px;
@@ -34,20 +32,16 @@
         }
 
         h1{
+            font-size: 2em;
             width: 100%;
-            color: #fff;
             text-align: center;
-            font-family:sans-serif;
+            font-family: sans-serif;
             background-color: rgba(165,42,42,0.3);
-            padding: 13px;
+            padding: 30px;
         }
        
         h2{
-            width: 100%;
-            color: #fff;
-            text-decoration: underline;
-            font-family:sans-serif;
-            padding: 13px;
+            font-size: 1.7em;
 
         }       
         h3{
@@ -56,9 +50,15 @@
             font-size: 3em;
         }
 
+        .tittle{
+            text-align: center;
+            color: #fff;
+            font-family: sans-serif;
+        }    
+
         p{
             color: #fff;
-            font-size: 15px;
+            font-size: 1.2em;
             font-weight: bold;
             font-family:sans-serif;
             text-align: justify;
@@ -110,4 +110,5 @@
            text-decoration: underline;
            color: #fff;
            font-weight: bolder;
+           font-size: 1.2em;
         } 
