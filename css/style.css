@@ -54,12 +54,12 @@
             text-align: center;
             color: #fff;
             font-family: sans-serif;
+            font-weight: bold;
         }    
 
         p{
             color: #fff;
             font-size: 1.2em;
-            font-weight: bold;
             font-family:sans-serif;
             text-align: justify;
             margin-top: 2%;
@@ -111,4 +111,6 @@
            color: #fff;
            font-weight: bolder;
            font-size: 1.2em;
+           margin-top: 2%;
+           margin-bottom: 2%;
         } 
