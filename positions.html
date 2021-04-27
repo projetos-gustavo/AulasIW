@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+  	 <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Entendendo o position</title>
+	<link rel="shortcut icon" href="img/favicon.jpg">
+
+</head>
+<style type="text/css">
+
+      .fixo{
+      	position: fixed;
+      	top: 0;
+      	right: 0;
+      	left: 0;
+      	z-index: 1030;
+      	background-color: green;
+      }	
+	
+      .main{
+   		margin-top: 8%;
+      }	
+      .container{
+      	  position: relative;
+      	  background-color: pink;
+          width: 100%;
+          height: 1220px;
+          text-align: center;
+      }    
+
+      .topoesquerda{
+          position: absolute;
+          top: 16px;
+          left: 16px
+          font-size: 18px;
+          width: 20%;
+          background-color: green;
+      }
+
+      .topodireita{
+      	  position: absolute;
+          top: 16px;
+          right: 16px;
+          font-size: 18px;
+          width: 20%;
+          background-color: green;
+      }       
+
+      .abaixoesquerda{
+          position: absolute;
+          bottom: 16px;
+          left: 16px;
+          font-size: 18px;
+          width: 20%;
+          background-color: green; 
+      }
+
+      .abaixodireita{  	
+          position: absolute;
+          bottom: 16px;
+          right: 16px;
+          font-size: 18px;
+          width: 20%;
+          background-color: green; 
+      }
+
+      .centro{
+          position: absolute;
+          top: 50%;
+          font-size: 18px;
+          width: 20%;
+          background-color: green; 
+          margin-left: 40%;
+      }
+
+</style>
+<body>
+	<header class="fixo">
+		<h1>Testando Posicionamento</h1>
+	</header>
+    <div class="main">
+    	<h1>Testando...</h1>
+	    <div class="container">
+		    <div class="topoesquerda">No topo esquerdo</div>
+		    <div class="topodireita">No topo direita</div>
+		    <div class="abaixoesquerda">Abaixo esquerda</div>
+		    <div class="abaixodireita">Abaixo direita</div>
+		    <div class="centro">Centro</div>
+        </div>
+            <h3 class="title">Clique <a href="index.html" target="_blank">aqui</a> para voltar para a página inicial</h3>
+    </div>	
+</div>
+</body>
+</html>
