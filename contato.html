@@ -1,0 +1,118 @@
+<!DOCTYPE html> <!-- Versão do Html = html 5 -->
+<html lang="pt-br">
+  <head>
+	 <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	 <title>Contato</title>
+	 <link rel="stylesheet" type="text/css" href="css/reset.css">
+	 <link rel="stylesheet" type="text/css" href="css/style.css">
+	 <link rel="shortcut icon" href="img/favicon.png">
+</head>
+<body>
+	<header class="fixo">
+		<img class="imglogo" src="img/logo.png">
+		<nav class="menu-opcoes">
+			<ul class="ajustes">
+				<li><a href="index.html">Início</a></li>
+				<li><a href="index.html">Html</a></li>
+				<li><a href="#css">CSS</a></li>
+				<li><a href="javascript.html">JavaScript</a></li>
+				<li><a href="contato.html">Contato</a></li>
+			</ul>
+		</nav>
+	</header>	
+	<div class="container">
+		<h2 class="tittle">Formulário de Contato</h1>
+			<p class="centro">Entre em contato conosco para sanar suas dúvidas ou sugestões</p>
+			<form class="fundo">
+			   <div class="distancia">
+  			   		<label for="fname">Nome: </label><br>
+  			   		<input type="text" id="fname" name="fname" value=""><br>
+  			   </div>
+  			   <div class="distancia">		
+               		<label for="lname">Idade: </label><br>
+               		<input type="text" id="lname" name="lname" value=""><br><br>
+               	</div>	
+               	<div class="distancia">
+               		<fieldset>
+               			<legend>Esse site te ajudou? </legend>
+		               		<input type="radio" id="html" name="fav_language" value="HTML">
+		  					<label for="html">Sim</label><br>
+		  					<input type="radio" id="css" name="fav_language" value="CSS">
+		  					<label for="css">Não</label><br>
+		  			</fieldset>	
+ 				</div>
+ 				<div class="distancia">
+ 					<fieldset>
+               			<legend>Escolha seus favoritos: </legend>
+		               		<input type="checkbox" id="html" name="fav_language" value="HTML">
+		  					<label for="html">Tim Berners-Lee</label><br>
+		  					<input type="checkbox" id="css" name="fav_language" value="CSS">
+		  					<label for="css">Hakon Lie</label><br>
+		  					<input type="checkbox" id="css" name="fav_language" value="CSS">
+		  					<label for="css">Brendan Eich</label><br>
+		  					<input type="checkbox" id="css" name="fav_language" value="CSS">
+		  					<label for="css">Refsnes Data</label><br>
+  					</fieldset>
+  				</div>
+  				<div class="distancia">
+  				   <fieldset>		
+	  				   <legend>Em qual ano vc nasceu?</legend>
+		 					<select id="cars" name="cars">
+						    <option value="volvo">2010</option>
+						    <option value="saab">2009</option>
+						    <option value="fiat">2008</option>
+						    <option value="audi">2007</option>
+						    <option value="volvo">2006</option>
+						    <option value="saab">2005</option>
+						    <option value="fiat">2004</option>
+						    <option value="audi">2003</option>
+						    <option value="volvo">2002</option>
+						    <option value="saab">2001</option>
+						    <option value="fiat">2000</option>
+						    <option value="audi">1999</option>
+						    <option value="volvo">1998</option>
+						    <option value="saab">1997</option>
+						    <option value="fiat">1996</option>
+						    <option value="audi">1995</option>
+						    <option value="volvo">1994</option>
+						    <option value="saab">1993</option>
+						    <option value="fiat">1992</option>
+						    <option value="audi">1991</option>
+						    <option value="volvo">1990</option>
+						    <option value="saab">1989</option>
+						    <option value="fiat">1988</option>
+						    <option value="audi">1987</option>
+						    <option value="volvo">1986</option>
+						    <option value="saab">1985</option>
+						    <option value="fiat">1984</option>
+						    <option value="audi">1983</option>
+						    <option value="volvo">1982</option>
+						    <option value="saab">1981</option>
+						    <option value="fiat">1980</option>
+						    <option value="audi">1979</option>
+						    <option value="volvo">1978</option>
+						    <option value="saab">1977</option>
+						    <option value="fiat">1976</option>
+						    <option value="audi">1975</option>
+						    <option value="volvo">1974</option>
+						    <option value="saab">1973</option>
+						    <option value="fiat">1972</option>
+						    <option value="audi">1971</option>
+						    <option value="volvo">1970</option>
+						  	</select>	
+				</div> 
+				<div class="distancia">
+					<label for="cars">Sugestão ou Dúvida:</label>
+					<textarea name="message" style="width:100%; height: 200px;"></textarea>
+				</div>	
+               	<div>	
+               		<input type="submit" value="Enviar">
+               	</div>
+              </div>	
+			</form> 
+		<footer>
+			 <p class="centro">Rodapé</p>     
+		   </footer> 
+   		</body>
+	</html>

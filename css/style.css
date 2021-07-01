@@ -3,40 +3,6 @@
             font-size: 1.8em;    
         }
 
-        @media screen and (max-width: 599px){
-            .container{
-                margin-top:65%;
-            }
-            }
-
-        @media screen and (min-width: 600px){
-            .container{         
-                margin-top:40%;
-            }
-            }
-
-        @media screen and (min-width: 768px){
-            .container{         
-                margin-top:20%; }
-
-            header{
-               flex-direction: row; 
-               position: relative;
-               height: 160px;    
-            }
-
-            .menu-opcoes{
-            position: absolute;
-            right: 5%;
-            top:45%;
-            }
-
-            .menu-opcoes ul li{
-            display: inline;
-            margin-left: 10px;
-            }
-            }
-
         header, footer{
             background-color: #ff4040;      
             padding: 3%;
@@ -44,7 +10,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            font-size: 1.5em;
+            font-size: 1.2em;
             line-height: 1;
         }
 
@@ -55,6 +21,48 @@
             position: relative;
         }
  
+        #sobre{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        #sobre .sobre{
+            text-align: center;
+
+        }
+
+        #galeria{
+            background-color: #ff4040;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            margin: 2px 2px;
+            margin-left: center;
+        }
+
+        #galeria .galeria{
+            margin: 2px 2px;
+            text-align: center;
+            background-color: #ff4040;  
+            padding: 30px 
+        }
+
+        .imggaleria{
+            width: 100%;
+        }
+        .imgsobre{
+            width: 20%;
+            height: 20%;
+            transition: width 2s, height 2s, transform 2s;
+        }
+
+        .imgsobre:hover{
+            transform: rotate(180deg);        
+        }
         .centro{
             color: #fff;
             text-align: center;
@@ -93,7 +101,8 @@
         h2{
             font-size: 1.7em;
 
-        }       
+        }  
+
         h3{
             color: #fff;
             font-style: inherit;   
@@ -148,6 +157,7 @@
             width: 15%;
         }
 
+
         a:link {
             color: white;
         }
@@ -177,3 +187,92 @@
            margin-top: 2%;
            margin-bottom: 2%;
         } 
+
+        .fundo{
+            background: #ccc;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 1%;
+            font-size: 1.2em;
+        }
+
+        .distancia{    
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+
+        fieldset{
+            width: 95%;
+            border: 2px solid #ff4040;
+            padding: 2%;
+        }
+
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit]{
+            width: 100%;
+            background-color: #ff4040;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        @media screen and (max-width: 599px){
+            .container{
+                margin-top:65%;
+            }
+            }
+
+        @media screen and (min-width: 600px){
+            .container{         
+                margin-top:40%;
+            }
+            }
+
+        @media screen and (min-width: 768px){
+            .container{         
+                margin-top:20%; 
+            }
+
+            header{
+               flex-direction: row; 
+               position: relative;
+               height: 160px;    
+            }
+
+            .menu-opcoes{
+               position: absolute;
+               right: 5%;
+               top:45%;
+            }
+
+            .menu-opcoes ul li{
+               display: inline;
+               margin-left: 10px;
+            }
+
+            #sobre, #galeria{
+               flex-direction: row;
+               flex-wrap: wrap;
+            }
+
+            #sobre h1, h2, h3, p, #galeria {
+                width: 100%;
+                text-align: center;
+            }
+
+            #sobre .sobre, #galeria .galeria{
+                width: 25%;
+                text-align: center;
+            }
+            }
